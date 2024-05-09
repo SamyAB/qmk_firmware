@@ -56,7 +56,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
      KC_NO,   FR_QUOT, FR_DLR,  FR_HASH, FR_LPRN, FR_GRV,                             FR_SLSH, FR_RPRN, FR_DOT,  FR_EQL,  FR_DQUO, KC_NO,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_NO,   FR_PERC, FR_ASTR, FR_LABK, FR_LBRC, FR_MINS, KC_NO,            KC_NO,   FR_UNDS, FR_RBRC, FR_RPRN, FR_PLUS, FR_BSLS, KC_NO,
+     KC_NO,   FR_PERC, FR_ASTR, FR_LABK, FR_LBRC, FR_MINS, KC_NO,            KC_NO,   FR_UNDS, FR_RBRC, FR_RABK, FR_PLUS, FR_BSLS, KC_NO,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
                                     KC_ESC,  LOW_SP,  ADJ_TB,                    RAI_BS,  KC_ENT,  KC_DEL
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
@@ -68,7 +68,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
      KC_NO,   KC_NO,   KC_NO,   FR_COMM, KC_NO,   KC_NO,                              KC_NO,   KC_NO,   KC_NO,   KC_PDOT, KC_NO,   KC_NO,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_NO,   KC_P1,   KC_P2,   KC_P3,   KC_P4,   KC_P5,                              KC_P6,   KC_P6,   KC_P7,   KC_P8,   KC_P9,   KC_NO,
+     KC_NO,   KC_P1,   KC_P2,   KC_P3,   KC_P4,   KC_P5,                              KC_P6,   KC_P7,   KC_P8,   KC_P9,   KC_P0,   KC_NO,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,            KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
